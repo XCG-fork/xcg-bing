@@ -36,6 +36,10 @@ export const useChatStore = defineStore(
         label: '本站',
       },
       {
+        baseUrl: 'https://chatgpt-xcg.site',
+        label: 'chuck-个人',
+      },
+      {
         baseUrl: '',
         label: '自定义',
         isCus: true,
